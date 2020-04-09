@@ -1,7 +1,7 @@
 
 let counters = [0, 0, 0, 0, 0, 0, 0];
 let counterIds = ['displayCount1', 'displayCount2', 'displayCount3', 'displayCount4', 'displayCount5', 'displayCount6', 'displayCount7'];
-let labelIds = ['displayLabel1', 'displayLabel2', 'displayLabel3', 'displayCount4', 'displayCount5', 'displayCount6', 'displayCount7'];
+let labelIds = ['displayLabel1', 'displayLabel2', 'displayLabel3', 'displayLabel4', 'displayLabel5', 'displayLabel6', 'displayLabel7'];
 let currentCounter = 0;
 updateCounts(counters, counterIds, labelIds, currentCounter);
 

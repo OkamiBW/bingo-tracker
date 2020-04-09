@@ -4,130 +4,207 @@
         <title>
             Bingo Tracker
         </title>
+        <meta charset="utf-8"/>
         <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
 
-    <body style="background-color: #2C2F33" text="#cdcdcd">
-        <font size="8" font face="Calibri">Tracker</font>
-        
-        <br />
-        <br />
+    <body style="background-color: #2C2F33; color: #cdcdcd;">
+        <div class="ml-2 mb-2">
+            <!-- <div class="row no-gutters"> -->
+                <!-- <div class="col-4"> -->
+                    <div class="textStyle" style="font-size: 32pt;">
+                        Tracker
+                    </div>
+                    
+                    <br />
 
-        <font size="5" font face="Calibri">
-        <div>
-            <span id="displayLabel1">Cannons</span>
-            <span> = </span>
-            <span id="displayCount1"></div>
-        </div>
-        
-        <div>
-            <span id="displayLabel2">Castle Secret Stars</span>
-            <span> = </span>
-            <span id="displayCount2"></div>
-        </div>
+                    <div class="textStyle">
+                        <div>
+                            <span id="displayLabel1">Cannons</span>
+                            <span> = </span>
+                            <span id="displayCount1"></span>
+                        </div>
+                        
+                        <div>
+                            <span id="displayLabel2">Castle Secret Stars</span>
+                            <span> = </span>
+                            <span id="displayCount2"></span>
+                        </div>
 
-        <div>
-            <span id="displayLabel3">2 Stars in X Stages</span>
-            <span> = </span>
-            <span id="displayCount3"></div>
-        </div>
+                        <div>
+                            <span id="displayLabel3">2 Stars in X Stages</span>
+                            <span> = </span>
+                            <span id="displayCount3"></span>
+                        </div>
 
-        <div>
-            <span id="displayLabel4">3 Stars from X Stages</span>
-            <span> = </span>
-            <span id="displayCount4"></div>
-        </div>
+                        <div>
+                            <span id="displayLabel4">3 Stars from X Stages</span>
+                            <span> = </span>
+                            <span id="displayCount4"></span>
+                        </div>
 
-        <div>
-            <span id="displayLabel5">1 Star from Each Stage</span>
-            <span> = </span>
-            <span id="displayCount5"></div>
-        </div>
+                        <div>
+                            <span id="displayLabel5">1 Star from Each Stage</span>
+                            <span> = </span>
+                            <span id="displayCount5"></span>
+                        </div>
 
-        <div>
-            <span id="displayLabel6">100 Coin Stars</span>
-            <span> = </span>
-            <span id="displayCount6"></div>
-        </div>
+                        <div>
+                            <span id="displayLabel6">100 Coin Stars</span>
+                            <span> = </span>
+                            <span id="displayCount6"></span>
+                        </div>
 
-        <div>
-            <span id="displayLabel7">4 Mini-Bosses</span>
-            <span> = </span>
-            <span id="displayCount7"></div>
-        </div>
-        </font>
+                        <div>
+                            <span id="displayLabel7">4 Mini-Bosses</span>
+                            <span> = </span>
+                            <span id="displayCount7"></span>
+                        </div>
+                    </div>
 
-        <br />
-        <br />
+                    <br />
 
-        <div class="row">
-            <div class="column">
-                <font size="6" font face="Calibri">Lobby</font>
-                <div id="bob" class="row">
-                    <img class="stageicon" src="images/bob.png">
-                </div>
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="sectionHeader">
+                                
+                                Lobby
+                                
+                                <div id="bob" class="d-flex align-items-end mb-1">
+                                    <img class="stageicon" src="images/bob.png">
+                                    <img class="npcicon" src="images/BOBBuddy.png">
+                                </div>
 
-                <div id="wf" class="row">
-                    <img class="stageicon" src="images/wf.png">
-                </div>
+                                <div id="wf" class="d-flex align-items-end mb-1">
+                                    <img class="stageicon" src="images/wf.png">
+                                    <img class="npcicon" src="images/BOBBuddy.png">
+                                </div>
 
-                <div id="ccm" class="row">
-                    <img class="stageicon" src="images/ccm.png">
-                </div>
+                                <div id="ccm">
+                                    <img class="stageicon" src="images/ccm.png">
+                                </div>
 
-                <div id="jrb" class="row">
-                    <img class="stageicon" src="images/jrb.png">
-                </div>
+                                <div id="jrb">
+                                    <img class="stageicon" src="images/jrb.png">
+                                </div>
 
-                <div id="pss" class="row">
-                    <img class="stageicon" src="images/pss.png">
-                </div>
+                                <div id="pss">
+                                    <img class="stageicon" src="images/pss.png">
+                                </div>
 
-                <div id="wing" class="row">
-                    <img class="stageicon" src="images/wing.png">
-                </div>
-                
-                <div id="sa" class="row">
-                    <img class="stageicon" src="images/sa.png">
-                </div>
+                                <div id="wing">
+                                    <img class="stageicon" src="images/wing.png">
+                                </div>
+                                
+                                <div id="sa">
+                                    <img class="stageicon" src="images/sa.png">
+                                </div>
 
-                <div id="bowser" class="row">
-                    <img class="stageicon" src="images/bowser.png">
-                </div>
+                                <div id="bowser">
+                                    <img class="stageicon" src="images/bowser.png">
+                                </div>
 
-            </div>
+                            </div>
 
-            <div class="column">
-                <font size="6" font face="Calibri">Downstairs</font>
+                            <div class="sectionHeader">
+                                
+                                Downstairs
 
-                <div id="bbh" class="row">
-                    <img class="stageicon" src="images/bbh.png">
-                </div>
+                                <div id="bbh">
+                                    <img class="stageicon" src="images/bbh.png">
+                                </div>
 
-                <div id="ssl" class="row">
-                    <img class="stageicon" src="images/ssl.png">
-                </div>
+                                <div id="ssl">
+                                    <img class="stageicon" src="images/ssl.png">
+                                </div>
 
-                <div id="lll" class="row">
-                    <img class="stageicon" src="images/lll.png">
-                </div>
+                                <div id="lll">
+                                    <img class="stageicon" src="images/lll.png">
+                                </div>
 
-                <div id="bowser" class="row">
-                    <img class="stageicon" src="images/bowser.png">
-                </div>
+                                <div id="hmc">
+                                    <img class="stageicon" src="images/hmc.png">
+                                </div>
 
-                <div id="hmc" class="row">
-                    <img class="stageicon" src="images/hmc.png">
-                </div>
+                                <div id="metal">
+                                    <img class="stageicon" src="images/metal.png">
+                                </div>
 
-                <div id="metal" class="row">
-                    <img class="stageicon" src="images/metal.png">
-                </div>
+                                <div id="vanish">
+                                    <img class="stageicon" src="images/vanish.png">
+                                </div>
 
-            </div>
+                                <div id="bowser">
+                                    <img class="stageicon" src="images/bowser.png">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="sectionHeader">
+                                
+                                Upstairs
+                                
+                                <div id="wdw">
+                                    <img class="stageicon" src="images/wdw.png">
+                                </div>
+
+                                <div id="thi">
+                                    <img class="stageicon" src="images/thi.png">
+                                </div>
+
+                                <div id="ttm">
+                                    <img class="stageicon" src="images/ttm.png">
+                                </div>
+
+                                <div id="sl">
+                                    <img class="stageicon" src="images/sl.png">
+                                </div>
+
+                            </div>
+
+                            <div class="sectionHeader">
+                                
+                                Tippy
+
+                                <div id="rr">
+                                    <img class="stageicon" src="images/rr.png">
+                                </div>
+
+                                <div id="ttc">
+                                    <img class="stageicon" src="images/ttc.png">
+                                </div>
+
+                                <div id="cloud">
+                                    <img class="stageicon" src="images/cloud.png">
+                                </div>
+
+                                <div id="bowser">
+                                    <img class="stageicon" src="images/bowser.png">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
+                <!-- <div class="col-8">
+                    BingoSync
+                    </br>
+                    <iframe src="https://www.bingosync.com">
+                </div> -->
+            <!-- </div> -->
         </div>
 
         <script src="./index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 
 </html>
